@@ -32,8 +32,6 @@ const Auth = () => {
                     value={name}
                   />
                 )}
-              
-
               <Input
                 label="Email"
                 onChange={(e: any) => setEmail(e.target.value)}
